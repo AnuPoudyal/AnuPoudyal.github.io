@@ -24,6 +24,3 @@ function nameString(obj) {
     let str = arr.join('.')
     return str;
 }
-console.log(nameString({}));
-console.log(nameString());
-console.log(nameString(null))
