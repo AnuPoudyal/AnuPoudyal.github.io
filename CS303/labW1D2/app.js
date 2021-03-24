@@ -1,4 +1,10 @@
 "use strict";
+
+function load() {
+	let id = document.getElementById("result");
+	id.innerHTML = "Lab W1D2";
+}
+
 function nameString(obj) {
     if (obj === null) {
         return "null argument";
@@ -18,3 +24,6 @@ function nameString(obj) {
     let str = arr.join('.')
     return str;
 }
+console.log(nameString({}));
+console.log(nameString());
+console.log(nameString(null))
