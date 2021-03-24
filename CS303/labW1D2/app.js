@@ -15,7 +15,7 @@ if(obj.length===0){
 }
 let arr=[];
 for(let i in obj){
-	arr.push(k)
+	arr.push(i)
 }
 arr.sort();
 let str=arr.join('.')
