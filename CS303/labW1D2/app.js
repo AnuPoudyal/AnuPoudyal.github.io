@@ -16,5 +16,5 @@ function nameString(obj) {
     arr.sort();
 
     let str = arr.join('.')
-    return str
+    return str;
 }
